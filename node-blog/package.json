@@ -1,0 +1,26 @@
+{
+  "name": "node-blog",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "connect-flash": "*",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "jade": "~1.11.0",
+    "moment": "*",
+    "mongodb": "^2.2.24",
+    "monk": "^1.0.1",
+    "monk": "https://github.com/vccabral/monk.git",
+    "morgan": "~1.7.0",
+    "multer": "*",
+    "serve-favicon": "~2.3.2"
+  }
+}
